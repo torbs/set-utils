@@ -1,6 +1,6 @@
 {
   "name": "set-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Utility methods for working with Sets",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "url": "git+https://github.com/torbs/set-utils.git"
   },
   "keywords": [
+    "Set",
     "Sets",
     "map",
     "filter",
