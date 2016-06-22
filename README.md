@@ -75,29 +75,29 @@ The filter() method creates a new Set with all elements that pass the test imple
 
 <a name="union"></a>
 
-## union(sets) ⇒ <code>Set</code>
+## union(set1, ...setN) ⇒ <code>Set</code>
 The union() method returns a new Set comprised of the Sets provided as arguments.
 
 **Returns**: <code>Set</code> - The new concatinated Set  
 
 | Param | Type | Description |
 | --- | --- | --- |
-| sets | <code>Set</code> | The Sets you want to concatinate |
+| set1...setN | <code>Set</code> | The Sets you want to concatinate |
 
 <a name="intersect"></a>
 
-## intersect(set) ⇒ <code>Set</code>
+## intersect(set1, set2, ...setN) ⇒ <code>Set</code>
 Creates a Set of unique values that are included in all given sets.
  
 **Returns**: <code>Set</code> - The intersection of the Sets given as arguments  
 
 | Param | Type | Description |
 | --- | --- | --- |
-| set | <code>Set</code> | Two or more Sets you want to intersect. |
+| set1...SetN | <code>Set</code> | Two or more Sets you want to intersect. |
 
 <a name="diff"></a>
 
-## diff(set1, sets) ⇒ <code>Set</code>
+## diff(set1, set2, ...setN) ⇒ <code>Set</code>
 Creates a Set of values not included in the other given sets.
 
 **Returns**: <code>Set</code> - The new Set of filtered values  
@@ -105,7 +105,7 @@ Creates a Set of values not included in the other given sets.
 | Param | Type | Description |
 | --- | --- | --- |
 | set1 | <code>Set</code> | The Set to inspect |
-| sets | <code>Set</code> | The values to exclude |
+| set2...setN | <code>Set</code> | The values to exclude |
 
 <a name="join"></a>
 

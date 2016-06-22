@@ -1,6 +1,6 @@
 {
   "name": "set-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utility methods for working with Sets",
   "main": "index.js",
   "scripts": {
