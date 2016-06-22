@@ -2,6 +2,13 @@
 Utility methods for working with Sets
 
 
+## Installation
+
+```
+$ npm install --save set-utils
+```
+
+
 ## Methods
 
 <dl>
@@ -36,7 +43,6 @@ Utility methods for working with Sets
 ## toArray ⇒ <code>Array</code>
 Converts a Set to an Array
 
-**Kind**: global variable  
 **Returns**: <code>Array</code> - The converted Set  
 
 | Param | Type | Description |
@@ -48,7 +54,6 @@ Converts a Set to an Array
 ## map(set, cb) ⇒ <code>Set</code>
 The map() method creates a new Set with the results of calling a provided function on every element in this Set
 
-**Kind**: global function  
 **Returns**: <code>Set</code> - The Set after mapping operation has been perfomed  
 
 | Param | Type | Description |
@@ -61,7 +66,6 @@ The map() method creates a new Set with the results of calling a provided functi
 ## filter(set, cb) ⇒ <code>Set</code>
 The filter() method creates a new Set with all elements that pass the test implemented by the provided function
 
-**Kind**: global function  
 **Returns**: <code>Set</code> - The resulting Set after the filter operation  
 
 | Param | Type | Description |
@@ -74,7 +78,6 @@ The filter() method creates a new Set with all elements that pass the test imple
 ## union(sets) ⇒ <code>Set</code>
 The union() method returns a new Set comprised of the Sets provided as arguments.
 
-**Kind**: global function  
 **Returns**: <code>Set</code> - The new concatinated Set  
 
 | Param | Type | Description |
@@ -85,8 +88,7 @@ The union() method returns a new Set comprised of the Sets provided as arguments
 
 ## intersect(set) ⇒ <code>Set</code>
 Creates a Set of unique values that are included in all given sets.
-
-**Kind**: global function  
+ 
 **Returns**: <code>Set</code> - The intersection of the Sets given as arguments  
 
 | Param | Type | Description |
@@ -98,7 +100,6 @@ Creates a Set of unique values that are included in all given sets.
 ## diff(set1, sets) ⇒ <code>Set</code>
 Creates a Set of values not included in the other given sets.
 
-**Kind**: global function  
 **Returns**: <code>Set</code> - The new Set of filtered values  
 
 | Param | Type | Description |
@@ -110,8 +111,7 @@ Creates a Set of values not included in the other given sets.
 
 ## join(set, separator) ⇒ <code>String</code>
 The join() method joins all elements of a Set into a string.
-
-**Kind**: global function  
+ 
 **Returns**: <code>String</code> - A string result of every element in the Set  
 
 | Param | Type | Description |
@@ -123,4 +123,5 @@ The join() method joins all elements of a Set into a string.
 
 ## stringifyReplacer()
 A replacer function for use with JSON.stringify. Converts Set to an Array in JSON.
+
 
