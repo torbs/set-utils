@@ -21,13 +21,13 @@ $ npm install --save set-utils
 <dt><a href="#filter">filter(set, cb)</a> ⇒ <code>Set</code></dt>
 <dd><p>The filter() method creates a new Set with all elements that pass the test implemented by the provided function</p>
 </dd>
-<dt><a href="#union">union(sets)</a> ⇒ <code>Set</code></dt>
+<dt><a href="#union">union(set1, ...setN)</a> ⇒ <code>Set</code></dt>
 <dd><p>The union() method returns a new Set comprised of the Sets provided as arguments.</p>
 </dd>
-<dt><a href="#intersect">intersect(set)</a> ⇒ <code>Set</code></dt>
+<dt><a href="#intersect">intersect(set1, set2, ...setN)</a> ⇒ <code>Set</code></dt>
 <dd><p>Creates a Set of unique values that are included in all given sets.</p>
 </dd>
-<dt><a href="#diff">diff(set1, sets)</a> ⇒ <code>Set</code></dt>
+<dt><a href="#diff">diff(set1, set2, ...setN)</a> ⇒ <code>Set</code></dt>
 <dd><p>Creates a Set of values not included in the other given sets.</p>
 </dd>
 <dt><a href="#join">join(set, separator)</a> ⇒ <code>String</code></dt>
@@ -82,7 +82,7 @@ The union() method returns a new Set comprised of the Sets provided as arguments
 
 | Param | Type | Description |
 | --- | --- | --- |
-| set1...setN | <code>Set</code> | The Sets you want to concatinate |
+| set1, ...setN | <code>Set</code> | The Sets you want to concatinate |
 
 <a name="intersect"></a>
 
