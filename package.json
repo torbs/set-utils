@@ -1,0 +1,33 @@
+{
+  "name": "set-utils",
+  "version": "1.0.0",
+  "description": "Utility methods for working with Sets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torbs/set-utils.git"
+  },
+  "keywords": [
+    "Sets",
+    "map",
+    "filter",
+    "union",
+    "difference",
+    "intersect",
+    "join",
+    "stringify"
+  ],
+  "author": "Tor Brekke Skjøtskift",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/torbs/set-utils/issues"
+  },
+  "homepage": "https://github.com/torbs/set-utils#readme",
+  "dependencies": {
+    "lodash.difference": "^4.3.0",
+    "lodash.intersection": "^4.2.0"
+  }
+}
