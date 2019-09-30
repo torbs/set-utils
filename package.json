@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/torbs/set-utils#readme",
   "dependencies": {
-    "lodash.difference": "^4.3.0",
-    "lodash.intersection": "^4.2.0"
+    "lodash.difference": "^4.5.0",
+    "lodash.intersection": "^4.4.0"
   }
 }
